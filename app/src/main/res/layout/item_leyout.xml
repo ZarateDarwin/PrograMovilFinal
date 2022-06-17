@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/system_accent2_100">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/paw_163683_1280" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvItemNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OREJAS"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/tvItemNumeroCelular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="73325124"
+            android:textAlignment="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvItemFecha"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="24/01/2018"
+                android:textAlignment="textStart" />
+
+            <TextView
+                android:id="@+id/tvItemHora"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="9:00 am"
+                android:textAlignment="textStart" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
